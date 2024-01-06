@@ -2,10 +2,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* style applied to the whole page at first */
 }
 
 body {
     background-color: #d9dcd6;
+    /* adds color to the whole body of the page */
 }
 
 .header {
@@ -13,15 +15,18 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    /* adds above style to the whole div header and sub tags in it  */
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    /* adds above style to the h1 tag under div header */
 }
 
 .header h1 .seo {
     color: #d9dcd6;
+    /* adds above color to the word ".seo" in h1 tag under div header */
 }
 
 .header div {
@@ -30,49 +35,59 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    /* applies above style to the div under div header */
 }
 
 .header div ul {
     list-style-type: none;
+    /* applies list style to ul tag under div under header div */
 }
 
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+    /* applies list style to li tag under ul tag under div under header div */
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    /* applies style to all a tags */
 }
 
 p {
     font-size: 16px;
+    /* applies style to all p tags */
 }
 
-.hero {
+.centerImage {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    /* applies style to the image in center of the page */
 }
 
 .float-left {
     float: left;
     margin-right: 25px;
+    /* makes images float to the left side of the page with margin of 25px from right */
 }
 
 .float-right {
     float: right;
     margin-left: 25px;
+    /* makes images float to the right side of the page with margin of 25px from left */
+
 }
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    /* applies style to the content at the bottom left/center to the page */
 }
 
 .benefits {
@@ -84,54 +99,64 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    /* applies style to the benefits at the bottom right side to the page */
 }
 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
+    /* applies style to div benefit-lead */
 }
 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
+    /* applies style to div benefit-brand */
 }
 
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+    /* applies style to div benefit-cost */
 }
 
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
+    /* only applies style to h3 tag under div benefit-lead */
 }
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
+    /* only applies style to h3 tag under div benefit-brand */
 }
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+    /* only applies style to h3 tag under div benefit-cost */
 }
 
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    /* applies style to the benefit-lead img */
 }
 
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    /* applies style to the benefit-brand img */
 }
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    /* applies style to the benefit-cost img */
 }
 
 .search-engine-optimization {
@@ -141,6 +166,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+     /* applies style to div search-engine-optimization */
 }
 
 .online-reputation-management {
@@ -150,6 +176,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+     /* applies style to div online-reputation-management */
 }
 
 .social-media-marketing {
@@ -159,33 +186,41 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    /* applies style to div social-media-marketing */
 }
 
 .search-engine-optimization img {
     max-height: 200px;
+    /* applies style to img tag under div search-engine-optimization, will overwrite style applied to the whole div */
 }
 
 .online-reputation-management img {
     max-height: 200px;
+    /* applies style to img tag under div online-reputation-management, will overwrite style applied to the whole div*/
+
 }
 
 .social-media-marketing img {
     max-height: 200px;
+    /* applies style to img tag under div social-media-marketing, will overwrite style applied to the whole div */
 }
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    /* only applies style to h2 tag under div search-engine-optimization */
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    /* only applies style to h2 tag under div online-reputation-management */
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    /* only applies style to h2 tag under div social-media-marketing */
 }
 
 .footer {
@@ -193,7 +228,9 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    /* applies style to div footer */
 }
 .footer h2 {
     font-size: 20px;
+    /* applies style to h2 tag under div footer, will overwrite the above style applied to div footer */
 }
